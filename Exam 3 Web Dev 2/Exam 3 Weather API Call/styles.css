@@ -1,0 +1,55 @@
+/* Name: Lilly Jarvis (Banuelos)
+    Date: 04/26/2023
+    Program Purpose: This page presents users with the option to enter a zipcode and choose between celcius or farenheit. Weather conditions at the location will be displayed.
+*/
+
+/* This is where the page styling for index.html will go */
+/* Styles the body */
+body {
+    /* moves the margins all the way to the edges of the screen */
+    margin: 0px;
+    /* adds a background image to the page */
+    background-image: url(weather\ background.jpg);
+}
+
+/* Styles the middle section of the page where the weather information will go */
+#middle {
+    /* centers the text for the middle weather information */
+    text-align: center;
+    /* changes the background color to white */
+    background-color: white;
+    /* moves the margin where the middle section weather information can start on the screen over to the left by 30% */
+    margin-left: 30%;
+    /* moves the margin where the middle section weather information can start on the screen over to the right by 30% */
+    margin-right: 30%;
+    /* moves the margin where the middle section weather information can start on the screen from the top by 8.6% */
+    margin-top: 8.6%;
+    /* adds more blank space under the bottom of the last weather information in the middle */
+    padding-bottom: 7%;
+}
+
+/* Styles the title (h1 element) */
+#title {
+    /* adds blank space above the h1 title element */
+    padding-top: 7%;
+}
+
+/* Styles the error message */
+#errorMsg {
+    /* moves the margin where the error message can start on the screen over to the left by 30% */
+    margin-left: 30%;
+    /* moves the margin where the error message can start on the screen over to the right by 30% */
+    margin-right: 30%;
+    /* centers the text for the error message */
+    text-align: center;
+    /* Styles error message background */
+    background-color: rgb(209, 209, 209);
+}
+
+/* Styles the icon picture size */
+#iconPng {
+    /* Styles image width */
+    width: 15%;
+    /* Styles image height */
+    height: 15%;
+}

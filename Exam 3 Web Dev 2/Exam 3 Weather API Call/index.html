@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Call API Exam 3</title>
+    <!-- links css page to the index -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- 
+        Name: Lilly Jarvis (Banuelos)
+        Date: 04/26/2023
+        Program Purpose: This page presents users with the option to enter a zipcode and choose between celcius or farenheit. Weather conditions at the location will be displayed.
+     -->
+</head>
+<body>
+    <!-- this creates a div that will separate the background image from the weather information -->
+    <div id="middle">
+        <!-- this creates a title for the weather app -->
+        <h1 id="title">WEATHER WATCHER</h1>
+        <!-- this creates a placeholder that's blank for the funny weather quote displayed for the app -->
+        <h3 id="funnyQuote"></h3>
+
+        <!-- gives space -->
+        <br>
+        <!-- this creates a subtitle with instrictions for the weather app -->
+        <h2>ENTER A ZIP CODE TO START</h2>
+        <!-- label for zipcode -->
+        <label for="zipCode" id="zipLabel">ZIP Code</label>
+        <!-- Box for user to type zip code in -->
+        <input type="text" id="zipCode" name="zipCode">
+        <!-- gives space -->
+        <br><br>
+        <!-- Dropdown selection to choose farenheit or celsius -->
+        <!-- label for temperature selection type -->
+        <label for="tempType" id="tempLabel">Temperature</label>
+        <!-- Dropdown arrow box for user to select farenheit or celcius -->
+        <select name="tempType" id="tempType">
+            <!-- farenheit option -->
+            <option value="F">F</option>
+            <!-- celcius option -->
+            <option value="C">C</option>
+        </select>
+        <!-- gives space -->
+        <br><br>
+        <!-- creates a button that useres will click on to take them to their weather information based on the zip code they entered if its valid -->
+        <button id="submit">Submit</button>
+    </div>
+
+    <!-- links javascript to the index -->
+    <script src="app.js"></script>
+</body>
+</html>
